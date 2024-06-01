@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul,ol{
+    list-style-type: none;
+}
+
+#box{
+    height: 200vh;
+    width: 100vw;
+    background-color: bisque;
+    
+}
+
+#box .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#box .box{
+    width: 200px;
+    height: 200px;
+    /* background-color: aqua; */
+    box-shadow: 3px 3px 10px gray;
+}
+#box .box2{
+    width: 200px;
+    height: 200px;
+    /* background-color: aqua; */
+    background-color: #fff;
+    box-shadow: 3px 3px 10px gray;
+}
+
+#box button{
+    padding: 20px 30px;
+    margin: 20px;
+    cursor: pointer;
+}
+
+
+#box .box3{
+    width: 200px;
+    height: 200px;
+    /* background-color: aqua; */
+    background-color: #4ed34e;
+    box-shadow: 3px 3px 10px gray;
+}
+
+
+#qna .container{
+    width: 50%; 
+    margin: auto;
+}
+
+#qna .container .faq .qns{
+    font-size: 20px;
+    background-color: #0b011f;
+    color: #fff;
+    padding: 10px 0px;
+    /* overflow: hidden; */
+}
+
+#qna .container .faq .qns.active ~ .ans{
+    height: auto;
+    transition: 0.5s;
+}
+
+#qna .container .faq .ans{
+    background-color: #ccc;
+    /* padding: 20px 2px; */
+    height: 0px;
+    margin: 5px 0px;
+    overflow: hidden;
+}
+#qna .container .faq .ans p{
+
+}
